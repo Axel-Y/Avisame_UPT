@@ -2,10 +2,11 @@
 	padding: 0;
 	margin: 0;
 	font-family: century gothic;
-	text-align: center;
+	
 }
 
 form {
+	text-align: center;
 	padding: 50px 20px;
 	background-color: #381b1ba6;
 	margin-left: 30%;
@@ -14,6 +15,55 @@ form {
 	padding-top: 28px;
 	margin-bottom: 30px
 }
+.nav{
+	padding: 50px 20px;
+	background-color: #381b1ba6;
+	margin-left: 25%;
+	margin-right: 28%;
+	margin-top: 70px;
+	padding-top: 28px;
+	margin-bottom: 30px;	
+    align-items: center;
+	overflow: hidden;
+}
+#nav1{
+	padding: 50px 20px;
+	background-color: #381b1ba6;
+	margin-left: 25%;
+	margin-right: 20%;
+	margin-top: 70px;
+	padding-top: 28px;
+	margin-bottom: 30px;	
+    align-items: center;
+	overflow: hidden;
+}
+.posts{
+	margin-top: 10%;
+}
+  
+  div.vaca img.iz {
+	text-align: center;
+	float: left;
+	margin-right: 5px;
+  }
+  .titulo{
+	float: left;
+	margin-left: 20%;
+  }
+  #t1{
+	float: left;
+  }
+  #t2{
+	margin-left: 25%;
+  }
+  .ini{
+	align-items: center;
+	text-align: center;
+  }
+  div.noticias{	
+	margin-top: 100px;
+	align-items: center;
+  }
 
 h1 {
 	text-align: center;
@@ -115,6 +165,52 @@ header a{
 	top: -50px;
 	left: calc(50% - 50px);
 }
+.select {
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px
+  }
+  .contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+	text-align: center;
+	color: black;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.canales{
+	text-align: center;
+	align-items: center;
+}
+.contenedorA{
+	align-items: center;
+	padding: 1em;
+}
+.anuncios{
+	align-items: center;
+	float: left;
+}
+#a1{
+	margin-right: 2%;
+}
+#a2{
+	margin-right: 2%;
+}
+.links{
+	color: white;
+}
 @media only screen and (min-width:360px) and (max-width:757px){
 	form {
 		padding: 50px 20px;
@@ -180,7 +276,7 @@ header a{
 		margin-top: 70px;
 		padding-top: 28px;
 		margin-bottom: 30px
-	}
+	}	
 	input {
 		width: calc(100% - 20px);
 		padding: 20px;
@@ -206,5 +302,5 @@ header a{
 		width: calc(20% - 100px);
 		font-family: montez;
 		font-size: 80px;
-	}
+	}	
 }
