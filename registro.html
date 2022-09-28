@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="Caja">
+        <section>
+            <form action="" method="post">
+                <h2>Formulario de registro</h2>
+                <p><input type="text" name="matricula" placeholder="Ingrese su matricula" maxlength="7"></p>
+                <select name="carrera" class="select">
+                    <option value="0">---Seleccione su carrera---</option>
+                    <option value="1">Sistemas</option>
+                    <option value="2">Civil</option>
+                    <option value="3">Robotica</option>
+                    <option value="4">Industrial</option>
+                    <option value="5">Manufactura</option>
+                    <option value="6">Electronica</option>
+                    <option value="7">N. Internacionales</option>
+                    <option value="8">Adm. Empresarial</option>
+                    <option value="9">Ing. Financiera</option>
+                </select>
+                <p><input type="text" name="nombre" placeholder="Ingrese su nombre(s)"></p>
+                <p><input type="password" name="contrasenia" placeholder="Ingrese una contraseña" maxlength="10"></p>
+                <select name="tipo"  class="select">
+                    <option value="0">---Seleccione el tipo de usuario---</option>
+                    <option value="1">Alumno</option>
+                    <option value="2">Maestro</option>
+                    <option value="3">Director</option>
+                </select>            
+                <input type="submit" value="Registrarse">
+            </form>
+        </section>
+    </div>
+</body>
+</html>
