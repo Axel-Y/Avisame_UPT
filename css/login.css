@@ -40,6 +40,15 @@ form {
 .posts{
 	margin-top: 10%;
 }
+
+.txtpost{
+	height: 150px;
+}
+#c1{
+	text-align: center;
+	float: left;
+	margin-right: 5px;	
+}
   
   div.vaca img.iz {
 	text-align: center;
@@ -50,12 +59,54 @@ form {
 	float: left;
 	margin-left: 20%;
   }
+  #ta{
+	margin-left: 35%;
+  }
   #t1{
 	float: left;
   }
   #t2{
 	margin-left: 25%;
   }
+  #ca{
+	margin-left: 15%;
+  }
+  #aa{
+	margin-right: 10%;
+  }
+
+  .contenedor {
+	color: transparent;
+  }
+  .contenedor::-webkit-file-upload-button {
+	visibility: hidden;
+  }
+  .contenedor::before {
+	content: 'Select some files';
+	color: black;
+	display: inline-block;
+	background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+	border: 1px solid #999;
+	border-radius: 3px;
+	padding: 5px 8px;
+	outline: none;
+	white-space: nowrap;
+	-webkit-user-select: none;
+	cursor: pointer;
+	text-shadow: 1px 1px #fff;
+	font-weight: 700;
+	font-size: 10pt;
+  }
+  .contenedor:hover::before {
+	border-color: black;
+  }
+  .contenedor:active {
+	outline: 0;
+  }
+  .contenedor:active::before {
+	background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
+  }
+
   .ini{
 	align-items: center;
 	text-align: center;
