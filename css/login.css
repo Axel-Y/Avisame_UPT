@@ -75,38 +75,42 @@ form {
 	margin-right: 10%;
   }
 
-  .contenedor {
-	color: transparent;
+  .file{	
+	height: 15%;
+	width: 20%;
+	overflow: hidden;
   }
-  .contenedor::-webkit-file-upload-button {
-	visibility: hidden;
+  #f1{
+	float: left;
+	margin-right: 2%;
   }
-  .contenedor::before {
-	content: 'Select some files';
+  #f2{
+	float: left;
+	height: 10%;
+	width: 50%;
+  }
+  #agregar{
+	margin-top: 10%;
+	margin-left: 30%;
+	margin-right: 1%;
+	height: 10%;
+	width: 10%;
+  }
+  .file input{
+	display: none;
+	
+  }
+  label{
 	color: black;
-	display: inline-block;
-	background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
-	border: 1px solid #999;
-	border-radius: 3px;
-	padding: 5px 8px;
-	outline: none;
-	white-space: nowrap;
-	-webkit-user-select: none;
+  }
+  .file label{
+	display: block;
+	padding: 8px 21px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	background-color: #eee;
 	cursor: pointer;
-	text-shadow: 1px 1px #fff;
-	font-weight: 700;
-	font-size: 10pt;
   }
-  .contenedor:hover::before {
-	border-color: black;
-  }
-  .contenedor:active {
-	outline: 0;
-  }
-  .contenedor:active::before {
-	background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
-  }
-
   .ini{
 	align-items: center;
 	text-align: center;
@@ -346,6 +350,7 @@ header a{
 	}
 	.caja{
 		margin-top: 30%;
+		overflow: hidden;
 	}
 	header h1{
 		margin-left: 10px;
